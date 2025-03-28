@@ -37,3 +37,22 @@ border-radius: 7px;
 background: center center fixed;
 background-size: cover;
 }
+
+#sociais{
+    text-align: right;
+}
+
+#sociais img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 12px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
+    box-sizing: border-box;
+}
+
+#sociais img:hover{
+    border: 3px solid white;
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+    transition: transform 0.2s, border 0.2s;
+}
